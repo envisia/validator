@@ -6,7 +6,10 @@
 
     <groupId>de.envisia</groupId>
     <artifactId>validator</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
+
+    <description>a simple package which only inclues inet address validator from apacke validators</description>
+    <url>https://github.com/envisia/validator.git</url>
 
     <dependencies>
         <dependency>
@@ -16,11 +19,33 @@
         </dependency>
     </dependencies>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Christian Schmitt</name>
+            <email>c.schmitt@envisia.de</email>
+            <organization>envisia GmbH</organization>
+            <organizationUrl>http://www.envisia.de</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:envisia/validator.git</connection>
+        <developerConnection>scm:git:git@github.com:envisia/validator.git</developerConnection>
+        <url>git@github.com:envisia/validator.git</url>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>bintray-envisia-maven</id>
             <name>envisia-maven</name>
-            <url>https://api.bintray.com/maven/envisia/maven/[PACKAGE_NAME]/;publish=1</url>
+            <url>https://api.bintray.com/maven/envisia/maven/validator/;publish=1</url>
         </repository>
     </distributionManagement>
 
